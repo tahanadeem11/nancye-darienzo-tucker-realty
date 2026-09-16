@@ -4569,7 +4569,75 @@ img{
 	letter-spacing: 1px;
 }
 
-/*** 
+/***
+
+====================================================================
+	Sold Section
+====================================================================
+
+***/
+
+.sold-section{
+	position: relative;
+	padding: 150px 0 60px;
+}
+
+.apartment-block .image-box.image-box-contain{
+	position: relative;
+	background-color: #24262d;
+}
+
+.apartment-block .image-box.image-box-contain .image img{
+	object-fit: contain;
+}
+
+.apartment-block .sold-badge{
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	z-index: 9;
+	display: inline-block;
+	padding: 8px 22px;
+	background-color: #de9e53;
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	border-radius: 3px;
+}
+
+.sold-block .info-box h4{
+	font-size: 17px;
+	line-height: 1.4em;
+	letter-spacing: 0.02em;
+	text-transform: none;
+	margin-bottom: 12px;
+}
+
+.sold-block .info-box .sold-meta{
+	position: relative;
+	margin-bottom: 15px;
+}
+
+.sold-block .info-box .sold-meta li{
+	position: relative;
+	font-size: 14px;
+	line-height: 1.8em;
+	color: #6c6d70;
+}
+
+.sold-block .info-box .sold-meta li strong{
+	color: #24262d;
+	font-weight: 700;
+}
+
+.sold-block .inner-box:hover .info-box .sold-meta li,
+.sold-block .inner-box:hover .info-box .sold-meta li strong{
+	color: #ffffff;
+}
+
+/***
 
 ====================================================================
 	Apartment Detail
