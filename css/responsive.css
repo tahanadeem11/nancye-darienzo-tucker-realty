@@ -1,0 +1,949 @@
+/* Dinso - Single Property HTML Template  */
+
+@media only screen and (max-width: 1340px){
+	.main-header .nav-outer .outer-box{
+		display:none;	
+	}
+}
+
+
+@media only screen and (max-width: 1139px){
+
+	.header-style-two .header-top .top-right{
+		display:none;	
+	}
+	
+	.header-style-two .header-top .top-left{
+		float:right;	
+	}
+	
+	.header-style-two .header-top .top-left .top-info li{
+		margin-left:15px;
+		margin-right:0px;	
+	}
+	
+	.main-footer .widgets-section:before{
+		display: none;
+	}
+
+	.banner-section .slide-item h2{
+		font-size: 58px;
+		line-height: 1.1em;
+	}
+
+	.banner-section .slide-item .banner-desc{
+		font-size: 17px;
+		max-width: 480px;
+	}
+
+	.room-section .content-column .inner-column{
+		margin-right: 0;
+	}
+
+	.about-section .content-column .inner-column{
+		margin-left: 0;
+	}
+
+	.about-block .content-column .inner-column,
+	.faqs-section .image-column .inner-column,
+	.about-section-two .content-column .inner-column,
+	.about-section .image-column .inner-column{
+		padding-right: 0;
+	}
+
+	.main-footer .form-widget,
+	.team-single .content-column .inner-column,
+	.about-block.style-two .content-column .inner-column,
+	.room-section .image-column .inner-column{
+		padding-left: 0;
+	}
+
+	.main-footer .footer-bottom .inner-container{
+		max-width: 100%;
+	}
+
+	.request-form .ui-selectmenu-button.ui-button, 
+	.request-form .form-group input[type="text"], 
+	.request-form .form-group input[type="email"], 
+	.request-form .form-group input[type="tel"], 
+	.request-form .form-group input[type="url"], 
+	.request-form .form-group textarea, 
+	.request-form .form-group select{
+		border-color: #555555;
+	}
+
+	.main-footer .form-widget{
+		margin-bottom: 50px;
+	}
+
+	.news-block-two .lower-content{
+		padding: 40px 30px 50px;
+	}
+
+	.property-tabs .content-box{
+		padding: 40px 30px;
+	}
+
+	.fluid-section-one .feature-column .inner-column{
+		padding: 70px 30px 50px;
+	}
+
+	.main-footer .map-widget{
+		max-width: 100%;
+		margin-bottom: 50px;
+		margin-top: 40px;
+	}
+
+	.apartment-detail .slide-item{
+		padding: 80px 30px 60px;
+	}
+
+	.apartment-detail .upper-box .apartment-info{
+		position: relative;
+		float: left;
+		margin-bottom: 40px;
+	}
+
+	.apartment-detail .owl-dots{
+		text-align: left;
+		padding-left: 30px;
+		bottom: 30px;
+	}
+	
+	.why-choose-us .features-box{
+		padding:80px 50px;	
+	}
+	
+	.near-by-clicker{
+		max-width:380px;	
+	}
+	
+	.news-block .lower-content{
+		padding-left:50px;
+		padding-right:50px;	
+	}
+	
+	.about-section-two .fun-fact-section{
+		margin:0;
+	}
+	
+	.about-section-two .fun-fact-section .inner-container{
+		padding:20px 15px;
+		text-align:center;
+		margin:0;		
+	}
+	
+	.about-section-two .content-column .inner-column{
+		padding-left:0;	
+	}
+	
+	.fun-fact-section{
+		text-align:center;	
+	}
+	
+	.fun-fact-section .title-column{
+		margin-bottom:0px;	
+	}
+	
+	.fun-fact-section .title-column .sec-title{
+		padding:50px 0px 0px;	
+	}
+	
+	.about-block .content-column .text-box p{
+		margin-bottom:20px;	
+	}
+}
+
+@media only screen and (min-width: 768px){
+	.main-menu .navigation > li > ul,
+	.main-menu .navigation > li > ul > li > ul{
+		display:block !important;
+		visibility:hidden;
+		opacity:0;
+	}
+}
+
+@media only screen and (max-width: 1023px){
+	
+	.sticky-header{
+		display: none !important;
+	}
+	
+	.main-header{
+		background-color: #f7f5f1;
+	}
+
+	.main-header .header-top .inner-container{
+		padding-left: 0;
+	}
+
+	.main-header .header-upper .logo-outer{
+		float:left;
+		padding:0px 0px;
+		background-color: #f7f5f1;
+		margin-left: 0;
+		margin-right: 0;
+		width: auto;
+	}
+
+	.main-header .nav-outer .main-menu{
+		display:none;
+	}
+	
+	.nav-outer .mobile-nav-toggler{
+		display: block;
+	}
+	
+	.main-menu:after,
+	.main-menu:before,
+	.main-header .upper-right,
+	.main-header .nav-outer .outer-box,
+	.main-header .header-upper .inner-container:before{
+		display: none;
+	}
+	
+	.header-style-two{
+		position: relative;
+		padding: 0;
+	}
+
+	.header-style-two .nav-outer{
+		width: auto;
+	}
+
+	.header-style-two .header-upper .logo-outer{
+		left:-15px;
+		margin: 0;
+		width: auto;
+		background:#ffffff;
+	}
+
+	.header-style-two .header-upper .logo{
+		padding: 16px 15px;
+		margin: 0;
+		width: auto;
+		background:#ffffff;
+	}
+
+	.header-style-two .header-upper .logo:before,
+	.header-style-two .header-upper .logo:after{
+		display: none;
+	}
+
+	.header-style-two .main-menu .navigation > li{
+		padding: 47px 0;
+	}
+	
+	.banner-section .slide-item h2 br{
+		display: none;
+	}
+
+	.banner-section .owl-dots{
+		left: 15px;
+		bottom: 40px;
+		top: auto;
+	}
+
+	.banner-section .owl-dot{
+		position: relative;
+		display: inline-block;
+		margin: 0;
+		margin-right: 10px;
+	}
+
+	.about-section .counter-column{
+		width: 33.3333%;
+	}
+
+	.room-detail-tabs .tab-btns li{
+		display: block;
+		float: left;
+		width: 33.3333%;
+		padding: 15px 15px;
+		border: 1px solid #f7f5f1;
+	}
+
+	.room-detail-tabs .tab-btns li:before,
+	.room-detail-tabs .tab-btns li:after{
+		display: none;
+	}
+
+	.room-detail-tabs .tab-btns li span{
+		margin-top: -30px;
+	}
+
+	.about-block.style-two .content-column,
+	.why-choose-us .title-column{
+		order: 0;
+	}
+
+	.why-choose-us .title-column .inner-column{
+		padding: 0;
+		margin-bottom: 50px;
+	}
+
+	.why-choose-us .feature-column .inner-column{
+		padding-right: 0;
+	}
+
+	.why-choose-us .image-layer{
+		width: 100%;
+	}
+
+	.floor-carousel .info-column{
+		margin-bottom: 50px;
+	}
+
+	.header-style-two{
+		background-color: #1d1f25;
+	}
+
+	.header-style-two .header-top{
+		display: none;
+	}
+
+	.header-style-two .nav-outer .mobile-nav-toggler{
+		margin: 0;
+		color: #ffffff;
+		padding: 33px 0;
+		font-size: 34px;
+		text-align: center;
+	}
+
+	.banner-section-two .slide-item h2{
+		font-size: 72px;
+		line-height: 1em;
+		margin-top: 0;
+	}
+
+	.banner-section-two .slide-item .content-box{
+		height: 750px;
+		padding-bottom: 60px;
+	}
+
+	.page-title h1{
+		font-size: 56px;
+	}
+
+	.page-info .bread-crumb{
+		float: left;
+	}
+
+	.team-single .image-column{
+		margin-bottom: 50px;
+	}
+
+	.neighbour-section .map-layer{
+		position: relative;
+		width: 100%;
+		height: 600px;
+	}
+
+	.neighbour-section .place-outer{
+		top: 0;
+		left: 0;
+		height: 600px;
+		width: 100%;
+	}
+
+	.neighbour-section .map-outer{
+		padding: 0 0 70px;
+	}
+
+	.neighbour-section .clicker-box{
+		max-width: 100%;
+		margin-top: 90px;
+		margin-bottom: 0;
+	}
+	
+	.neighbour-section .clicker-box .near-by-clicker{
+		max-width:100%;	
+	}
+	
+	.neighbour-section .place-outer{
+		width:100%;	
+	}
+
+	.banner-section .slide-item .content-box{
+		height: 700px;
+		padding-bottom: 60px;
+	}
+
+	.fluid-section-one .feature-column{
+		width: 100%;
+	}
+	
+	.fluid-section-one .feature-column .inner-column{
+		max-width:none;
+		padding:60px 20px 20px;
+	}
+
+	.fluid-section-one .image-column{
+		position: relative;
+		float: left;
+		width: 100%;
+		background: none;
+	}
+
+	.fluid-section-one .image-column .image-box{
+		display: block;
+	}
+	
+	.about-section-two .title-box,
+	.about-section-two .title-box .link-box{
+		text-align:center;	
+	}
+}
+
+@media only screen and (max-width: 767px){
+	.banner-section .slide-item h2{
+		font-size: 46px;
+		line-height: 1.15em;
+	}
+
+	.banner-section .slide-item .banner-desc{
+		font-size: 16px;
+		line-height: 1.6em;
+		max-width: 100%;
+	}
+
+	.banner-section .slide-item .btn-box{
+		flex-direction: column;
+		align-items: flex-start;
+		width: 100%;
+	}
+
+	.banner-section .slide-item .btn-box .theme-btn{
+		width: 100%;
+		text-align: center;
+		justify-content: center;
+	}
+
+	.main-header .header-top .top-left .social-icon-one{
+		display: none;
+	}
+
+	.team-single,
+	.about-page-section,
+	.gallery-section-two{
+		padding: 70px 0 0;
+	}
+
+	.map-section,
+	.faqs-section,
+	.floor-section,
+	.call-to-action,
+	.property-section,
+	.why-choose-us{
+		padding: 70px 0;
+	}
+	
+	.sidebar-page-container,
+	.main-footer .widgets-section,
+	.features-section,
+	.team-section,
+	.newsletter-section,
+	.about-section-two,
+	.room-section{
+		padding: 70px 0 20px;
+	}
+
+	.apartments-section,
+	.gallery-page-section,
+	.news-section-two,
+	.intro-section,
+	.news-section{
+		padding: 70px 0 40px;
+	}
+
+	.apartment-detail,
+	.about-section{
+		padding: 70px 0 50px;
+	}
+
+	.about-section .content-column .text{
+		margin-bottom: 50px;
+	}
+
+	.about-section .counter-column{
+		width: 50%;
+	}
+
+	.why-choose-us .features-box{
+		padding: 70px 50px;
+	}
+
+	.floor-carousel .image-column{
+		margin-bottom: 30px;
+	}
+
+	.news-block .lower-content{
+		padding: 40px 30px 30px;
+	}
+
+	.neighbour-section .map-layer{
+		width: 100%;
+	}
+
+	.sec-title h2{
+		font-size: 40px;
+	}
+
+	.banner-section-two .slide-item h2{
+		font-size: 60px;
+		line-height: 1em;
+	}
+
+	.fun-fact-section .counter-column .inner{
+		padding: 30px 15px;
+	}
+
+	.fun-fact-section .counter-column .inner:before{
+		display: none;
+	}
+
+	.fun-fact-section{
+		padding: 40px 0;
+	}
+
+	.newsletter-section{
+		text-align: center;
+	}
+
+	.subscribe-form .form-group{
+		padding-right: 0;
+	}
+
+	.subscribe-form .form-group input[type="submit"], 
+	.subscribe-form .submit-btn{
+		position: relative;
+		margin-top: 20px;
+		width: 100%;
+	}
+
+	.property-tabs .tab-btns li{
+		position: relative;
+		display: block;
+		width: 50%;
+		float: left;
+		border: 1px solid #ffffff;
+	}
+
+	.property-tabs .image-column{
+		margin-top: 30px;
+	}
+
+	.about-block .image-column{
+		margin-bottom: 0;
+	}
+
+	.author-box{
+		padding: 30px 15px;
+	}
+
+	.comments-area .comment-box .author-thumb,
+	.sidebar .popular-posts .post .post-thumb,
+	.author-box .thumb{
+		position: relative;
+		margin-bottom: 20px;
+	}
+
+	.comments-area .comment-box .name,
+	.author-box .name{
+		margin-bottom: 10px;
+	}
+
+	.sidebar .popular-posts .post .post-inner,
+	.comments-area .comment,
+	.author-box .inner-box{
+		padding-left: 0;
+	}
+
+	.contact-section{
+		padding-bottom: 70px;
+	}
+
+	.comments-area .comment-box .reply-btn{
+		position: relative;
+		display: inline-block;
+		left: 0;
+		margin-top: 20px;
+	}
+
+	.map-section .contact-info{
+		position: relative;
+		right: 0;
+		top: 0;
+		width: 100%;
+		max-width: 100%;
+		padding: 0;
+		margin-top: 50px;
+	}
+	
+	.room-detail-tabs .tab-btns li{
+		width:50%;	
+	}
+	
+	.about-section-two .fun-fact-section .inner-container{
+		padding-left:0;
+		padding-right:0;	
+	}
+	
+	.about-section-two .fun-fact-section .inner-container:before{
+		left:-20px;	
+	}
+	
+	.fun-fact-section .title-column{
+		margin-bottom:40px;	
+	}
+
+	.page-title{
+		padding: 100px 0px 120px;
+	}
+
+	.main-footer{
+		text-align: center;
+	}
+
+	.main-footer .agent-block .agent-info{
+		padding-left: 0;
+		height: auto;
+	}
+
+	.main-footer .agent-block .thumb{
+		position: relative;
+		display: block;
+		margin: 0 auto 30px;
+	}
+
+	.call-to-action .number,
+	.call-to-action .sec-title.light h2{
+		font-size: 32px;
+	}
+
+	.page-title h1{
+		font-size: 44px;
+	}
+}
+
+@media only screen and (max-width: 599px){
+	.banner-section-two .slide-item .text br,
+	.main-header .header-top .top-left{
+		display: none;
+	}
+
+	.main-header .header-top .top-right{
+		width: 100%;
+		text-align: center;
+		padding-left: 0;
+	}
+
+	.banner-section .slide-item .content-box{
+		height: 600px;
+	}
+
+	.banner-section-two .slide-item .content-box{
+		height: 700px;
+	}
+
+	.banner-section .slide-item h2{
+		font-size: 36px;
+		letter-spacing: 0.02em;
+		line-height: 1.2em;
+	}
+
+	.banner-section .slide-item .banner-desc{
+		font-size: 15px;
+		margin-bottom: 25px;
+	}
+
+	.banner-section .slide-item .btn-box .theme-btn{
+		padding: 14px 20px;
+		font-size: 14px;
+	}
+
+	.banner-section-two .slide-item h2{
+		font-size: 42px;
+		line-height: 1.2em;
+	}
+
+	.banner-section-two .slide-item .text{
+		font-size: 18px;
+		line-height: 1.4em;
+		text-decoration: none;
+	}
+
+	.sec-title h2{
+		font-size: 40px;
+		line-height: 1em;
+	}
+
+	.about-section .counter-column{
+		width: 100%;
+	}
+
+	.room-section .content-column{
+		text-align: center;
+	}
+
+	.room-section .content-column .room-size{
+		position: relative;
+		margin-bottom: 40px;
+	}
+
+	.room-section .room-info h5{
+		padding-right: 0;
+	}
+	
+	.room-detail-tabs .tabs-box{
+		padding-bottom:0;	
+	}
+	
+	.room-detail-tabs .tab-btns{
+		position:relative;
+		display:block;
+		padding:0px 15px;
+		margin-bottom:50px;
+	}
+
+	.room-detail-tabs .tab-btns li{
+		width: 100%;
+		display:block;
+	}
+
+	.why-choose-us .features-box{
+		padding: 20px 20px 30px;
+	}
+
+	.why-choose-us .feature-list li{
+		padding-left: 40px;
+	}
+
+	.floor-carousel .owl-dots{
+		position: relative;
+		left: 0;
+		top: 0;
+		width: 100%;
+		text-align: center;
+		margin-top: 30px;
+	}
+
+	.floor-carousel .text-column p{
+		margin-bottom: 20px;
+	}
+
+	.floor-carousel .owl-dot:first-child{
+		margin-left: 0;
+	}
+
+	.neighbour-section .clicker-box{
+		padding: 30px 15px 30px 20px;
+	}
+
+	.main-footer .footer-bottom .inner-container{
+		padding: 15px 0;
+		text-align: center;
+	}
+
+	.property-tabs .tab-btns li,
+	.main-footer .footer-bottom .social-links{
+		width: 100%;
+	}
+
+	.main-footer .footer-bottom .copyright{
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	.property-tabs .content-box{
+		padding: 40px 15px;
+	}
+
+	.property-tabs .floor-info li{
+		padding: 15px;
+	}
+
+	.call-to-action .number{
+		font-size: 32px;
+	}
+
+	.header-style-two .nav-outer .mobile-nav-toggler{
+		width: auto;
+	}
+
+	.intro-section .sec-title h2{
+		font-size: 30px;
+	}
+
+	.page-title h1{
+		font-size: 36px;
+	}
+
+	.default-accordion-box .block .content{
+		padding: 35px 20px 25px;
+	}
+
+	.apartment-detail .slide-item {
+	    padding: 80px 15px 60px;
+	}
+
+	.apartment-detail .upper-box .apartment-info{
+		padding: 30px 25px 15px;
+	}
+
+	.sidebar-widget .widget-content{
+		padding: 25px 30px 30px;
+	}
+
+	.news-block .lower-content{
+		padding: 40px 20px 30px;
+	}
+
+	.place-outer,
+	.neighbour-section .map-layer{
+		display: none;
+	}
+
+	.floor-carousel .text-column .theme-btn{
+		width: 100%;
+		text-align: center;
+	}
+
+	.page-title{
+		padding: 80px 0px 110px;
+	}
+	
+	.fluid-section-one{
+		text-align:center;
+	}
+
+	.sec-title h2,
+	.banner-section-two .slide-item h2,
+	.banner-section .slide-item h2{
+		font-size: 36px;
+	}
+
+	.fun-fact-section .counter-column .count-text{
+		font-size: 48px;
+	}
+
+	.apartment-detail .upper-box .features-list li,
+	.apartment-detail .upper-box .apartment-info h5{
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width: 991px){
+	.help-tabs .tabs-content .image-column .image-box{
+		min-height: 380px;
+	}
+
+	.help-tabs .tabs-content .content-column .inner{
+		padding: 35px 30px;
+		margin-top: 0;
+	}
+
+	.help-tabs .tabs-content .content-column h3{
+		font-size: 26px;
+	}
+}
+
+@media only screen and (max-width: 767px){
+	.gallery-item .image-box .image img{
+		height: 240px;
+	}
+
+	.call-to-action.cta-modern{
+		text-align: center;
+		padding: 60px 0;
+	}
+
+	.call-to-action.cta-modern .cta-box{
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		gap: 30px;
+	}
+
+	.call-to-action.cta-modern .cta-content{
+		max-width: 100%;
+	}
+
+	.call-to-action.cta-modern .cta-content h2{
+		font-size: 30px;
+	}
+
+	.call-to-action.cta-modern .cta-actions{
+		flex-direction: column;
+		align-items: stretch;
+		width: 100%;
+	}
+
+	.call-to-action.cta-modern .cta-phone{
+		justify-content: center;
+		width: 100%;
+	}
+
+	.call-to-action.cta-modern .cta-actions .theme-btn{
+		justify-content: center;
+		text-align: center;
+	}
+
+	/* Show the process as a single scrollable list on mobile, no tab clicking needed */
+	.help-tabs .tab-buttons{
+		display: none;
+	}
+
+	.help-tabs .tabs-content{
+		margin-top: 0;
+	}
+
+	.help-tabs .tabs-content .tab{
+		display: block !important;
+		margin-bottom: 40px;
+		padding-bottom: 40px;
+		border-bottom: 2px solid #f0ede7;
+	}
+
+	.help-tabs .tabs-content .tab:last-child{
+		margin-bottom: 0;
+		padding-bottom: 0;
+		border-bottom: none;
+	}
+
+	.help-tabs .tabs-content .content-column .mobile-step-label{
+		display: flex;
+	}
+
+	.help-tabs .tabs-content .image-column .image-box{
+		min-height: 260px;
+	}
+
+	.help-tabs .tabs-content .content-column .inner{
+		padding: 30px 25px;
+	}
+
+	.help-tabs .tabs-content .content-column .btn-box{
+		flex-direction: column;
+		align-items: stretch;
+	}
+
+	.help-tabs .tabs-content .content-column .btn-box .theme-btn{
+		justify-content: center;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 479px){
+	.help-tabs .tabs-content .image-column .image-box{
+		min-height: 220px;
+	}
+
+	.mixitup-gallery .filters li{
+		width: 100%;
+	}
+
+	.apartment-block .info-box{
+		padding: 30px 20px;
+	}
+}
