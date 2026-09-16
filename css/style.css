@@ -2567,6 +2567,14 @@ img{
 	object-fit: cover;
 }
 
+.help-tabs .tabs-content .image-column .image-box.image-box-contain{
+	background-color: #f7f5f1;
+}
+
+.help-tabs .tabs-content .image-column .image-box.image-box-contain img{
+	object-fit: contain;
+}
+
 .help-tabs .tabs-content .content-column{
 	display: flex;
 }
