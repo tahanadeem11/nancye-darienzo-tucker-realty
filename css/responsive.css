@@ -894,6 +894,14 @@
 		display: none;
 	}
 
+	.help-tabs .tabs-content .image-column .image-box.image-box-contain{
+		background-color: transparent;
+	}
+
+	.help-tabs .tabs-content .image-column .image-box.image-box-contain img{
+		object-fit: cover;
+	}
+
 	.help-tabs .tabs-content{
 		margin-top: 0;
 	}
