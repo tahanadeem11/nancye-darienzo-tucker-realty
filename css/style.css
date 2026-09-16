@@ -6019,6 +6019,13 @@ img{
 	left: 0;
 	top: 0;
 	width: 130px;
+	height: 163px;
+	overflow: hidden;
+}
+
+.main-footer .agent-block .thumb img{
+	height: 100%;
+	object-fit: cover;
 }
 
 .main-footer .agent-block .thumb img{
@@ -6046,6 +6053,8 @@ img{
 
 .main-footer .agent-widget .contact-info{
 	position: relative;
+	padding-left: 160px;
+	clear: both;
 }
 
 .main-footer .agent-widget .contact-info li{
