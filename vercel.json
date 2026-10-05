@@ -1,0 +1,7 @@
+{
+  "cleanUrls": false,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/:path*", "has": [{ "type": "host", "value": "nancyedarienzorealty.com" }], "destination": "https://www.nancyedarienzorealty.com/:path*", "permanent": true }
+  ]
+}
