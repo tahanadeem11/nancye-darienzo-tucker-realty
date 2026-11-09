@@ -7481,3 +7481,36 @@ img{
 		display: flex;
 	}
 }
+
+/* Contact / inquiry form status message */
+.form-status{
+	display: none;
+	margin-top: 15px;
+	padding: 12px 16px;
+	font-size: 15px;
+	line-height: 1.5em;
+	text-align: center;
+	border-radius: 3px;
+}
+
+.form-status.is-success,
+.form-status.is-error{
+	display: block;
+}
+
+.form-status.is-success{
+	background-color: #e8f5e9;
+	color: #1b5e20;
+	border: 1px solid #b7dfb9;
+}
+
+.form-status.is-error{
+	background-color: #fdecea;
+	color: #8a1c14;
+	border: 1px solid #f3b9b4;
+}
+
+.main-footer .request-form .form-status{
+	text-align: left;
+	font-size: 14px;
+}
