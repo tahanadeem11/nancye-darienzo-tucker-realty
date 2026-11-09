@@ -1,9 +1,0 @@
-{
-  "name": "nancye-darienzo-tucker-realty",
-  "version": "1.0.0",
-  "private": true,
-  "description": "Static site with a serverless contact-form endpoint (api/contact.js).",
-  "dependencies": {
-    "nodemailer": "^6.9.16"
-  }
-}

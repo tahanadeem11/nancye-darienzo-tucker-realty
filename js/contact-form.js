@@ -1,8 +1,12 @@
-/* Sends the contact page form and the footer "Inquire" forms to /api/contact (no page reload). */
+/* Sends the contact page form and the footer "Inquire" forms by email through FormSubmit.co (no page reload).
+   Enquiries are delivered to RECIPIENT. The first message ever sent makes FormSubmit email that address a
+   one-time "Activate form" link; click it once and every later enquiry is delivered. To change who receives
+   the enquiries, change RECIPIENT below (the new address needs the same one-time activation). */
 (function () {
 	"use strict";
 
-	var ENDPOINT = "/api/contact";
+	var RECIPIENT = "tahanadeem.gk@gmail.com";
+	var ENDPOINT = "https://formsubmit.co/ajax/" + RECIPIENT;
 	var EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 
 	function statusBox(form) {
@@ -40,9 +44,7 @@
 		form.appendChild(hp);
 
 		form.setAttribute("novalidate", "novalidate");
-		form.setAttribute("action", ENDPOINT);
-		form.setAttribute("method", "post");
-
+		
 		form.addEventListener("submit", function (e) {
 			e.preventDefault();
 			var data = {
@@ -58,6 +60,13 @@
 				return;
 			}
 
+			if (data.website) {
+				// spam bot filled the hidden field: pretend success, send nothing
+				form.reset();
+				show(form, true, "Thank you! Your message has been sent. Nancye will be in touch soon.");
+				return;
+			}
+
 			var btn = form.querySelector('button[type="submit"]');
 			var label = btn && btn.querySelector(".btn-title");
 			var original = label ? label.textContent : "";
@@ -67,10 +76,19 @@
 			fetch(ENDPOINT, {
 				method: "POST",
 				headers: { "Content-Type": "application/json", "Accept": "application/json" },
-				body: JSON.stringify(data)
+				body: JSON.stringify({
+					name: data.username,
+					email: data.email,
+					phone: data.phone || "-",
+					message: data.message,
+					_subject: "New website enquiry from " + data.username,
+					_replyto: data.email,
+					_template: "table",
+					_captcha: "false"
+				})
 			}).then(function (res) {
 				return res.json().catch(function () { return {}; }).then(function (json) {
-					return { ok: res.ok && json.ok, error: json.error };
+					return { ok: res.ok && (json.success === true || json.success === "true"), error: null };
 				});
 			}).then(function (r) {
 				if (r.ok) {
